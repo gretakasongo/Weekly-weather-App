@@ -13,45 +13,65 @@
 
         <EditText
             android:id="@+id/edtDayIndex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="Day index (0-6)"
             android:inputType="number"/>
 
         <EditText
             android:id="@+id/edtMin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="Minimum temperature"
             android:inputType="number"/>
 
         <EditText
             android:id="@+id/edtMax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="Maximum temperature"
             android:inputType="number"/>
 
         <EditText
             android:id="@+id/edtCondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="Weather condition"/>
 
         <Button
             android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Save Data"/>
 
         <Button
             android:id="@+id/btnAverage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Calculate Average"/>
 
         <Button
             android:id="@+id/btnDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="View Details"/>
 
         <Button
             android:id="@+id/btnClear"
-            android:text="Clear Data"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear Data" />
 
         <Button
             android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Exit App"/>
 
         <TextView
             android:id="@+id/txtAverage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textStyle="bold"/>
     </LinearLayout>

@@ -1,4 +1,11 @@
 package com.example.weeklyweatherapp
 
-class WeatherData {
+object WeatherData {
+    lateinit var days: Array<String>
+
+    lateinit var minTemps: IntArray
+
+    lateinit var maxTemps: IntArray
+
+    lateinit var conditions: Array<String>
 }
